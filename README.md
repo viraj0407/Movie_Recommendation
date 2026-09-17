@@ -53,15 +53,6 @@ streamlit run app.py
 
 Open the local URL Streamlit prints (usually `http://localhost:8501`).
 
-## Optional: poster images
-
-The app can show poster art if you provide a free [TMDB API key](https://www.themoviedb.org/settings/api) — paste it into the sidebar field when the app is running, or set it as an environment variable:
-
-```bash
-export TMDB_API_KEY=your_key_here
-```
-
-Without a key, the app still works fine, just without posters.
 
 ## Notes for contributors
 
