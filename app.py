@@ -112,6 +112,14 @@ def recommend(movies: pd.DataFrame, vectors, title: str, top_n: int = 8):
 # --------------------------------------------------------------------------
 # UI
 # --------------------------------------------------------------------------
+st.markdown(
+    """
+    <h1 style="text-align: center; color: #4CAF50;">
+        Project Built by Viraj Chavan
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 st.title("🎬 Movie Recommender")
 st.caption("Content-based recommendations from genres, keywords, cast, director, and plot overview.")
 
