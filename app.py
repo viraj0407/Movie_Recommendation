@@ -1,7 +1,7 @@
 """
 Movie Recommender - Streamlit app
 ----------------------------------
-Loads the precomputed model artifacts (movies.pkl, similarity.pkl) and lets
+Loads the precomputed model artifacts (movies.pkl) and lets
 the user pick a movie to get similar recommendations.
 
 Run with:
