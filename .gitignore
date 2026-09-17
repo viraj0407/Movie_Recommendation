@@ -1,0 +1,23 @@
+# Virtual environments - never commit these
+myenv/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large raw data (optional - uncomment if you don't want the CSVs in git)
+# tmdb_5000_movies.csv
+# tmdb_5000_credits.csv
