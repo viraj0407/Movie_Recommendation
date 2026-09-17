@@ -124,12 +124,12 @@ except FileNotFoundError as e:
 with st.sidebar:
     st.header("Settings")
     top_n = st.slider("Number of recommendations", min_value=3, max_value=15, value=8)
-    api_key = st.text_input(
-        "TMDB API key (optional, for poster images)",
-        value=os.environ.get("TMDB_API_KEY", ""),
-        type="password",
-        help="Get a free key at https://www.themoviedb.org/settings/api",
-    )
+    # api_key = st.text_input(
+    #     "TMDB API key (optional, for poster images)",
+    #     value=os.environ.get("TMDB_API_KEY", ""),
+    #     type="password",
+    #     help="Get a free key at https://www.themoviedb.org/settings/api",
+    # )
     st.markdown("---")
     st.markdown(f"**Movies in catalog:** {len(movies):,}")
 
